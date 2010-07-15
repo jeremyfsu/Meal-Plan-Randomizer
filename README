@@ -7,4 +7,4 @@ click. It chooses from a list of your favorite meals to cook. For those (like me
 leftovers, it will account for eating leftovers for lunch or dinner the next night.
 
 == Progress
-7/14/10 So far it's a blank Rails app!
+7/14/10 So far it's a generic rails app with a dish scaffold
