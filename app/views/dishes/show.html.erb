@@ -1,0 +1,13 @@
+<p>
+  <b>Name:</b>
+  <%=h @dish.name %>
+</p>
+
+<p>
+  <b>Leftovers:</b>
+  <%=h @dish.leftovers %>
+</p>
+
+
+<%= link_to 'Edit', edit_dish_path(@dish) %> |
+<%= link_to 'Back', dishes_path %>

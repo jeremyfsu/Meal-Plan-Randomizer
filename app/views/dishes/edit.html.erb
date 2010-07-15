@@ -1,0 +1,20 @@
+<h1>Editing dish</h1>
+
+<% form_for(@dish) do |f| %>
+  <%= f.error_messages %>
+
+  <p>
+    <%= f.label :name %><br />
+    <%= f.text_field :name %>
+  </p>
+  <p>
+    <%= f.label :leftovers %><br />
+    <%= f.text_field :leftovers %>
+  </p>
+  <p>
+    <%= f.submit 'Update' %>
+  </p>
+<% end %>
+
+<%= link_to 'Show', @dish %> |
+<%= link_to 'Back', dishes_path %>
